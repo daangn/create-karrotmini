@@ -1,0 +1,9 @@
+{
+  "name": "my-karrotmini",
+  "scripts": {
+    "develop": "serve ./public"
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}

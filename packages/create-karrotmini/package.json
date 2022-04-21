@@ -1,0 +1,32 @@
+{
+  "name": "create-karrotmini",
+  "version": "0.0.0",
+  "description": "당근마켓 Mini 프로젝트를 생성해요",
+  "keywords": [
+    "karrot",
+    "karrotmini"
+  ],
+  "bugs": {
+    "url": "https://github.com/daangn/create-karrotmini/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daangn/create-karrotmini.git",
+    "directory": "packages/create-karrotmini"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "index.js",
+  "files": [
+    "templates",
+    "create.js",
+    "index.js"
+  ],
+  "dependencies": {
+    "commander": "^9.2.0",
+    "fs-extra": "^10.1.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
