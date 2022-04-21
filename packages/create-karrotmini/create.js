@@ -18,6 +18,9 @@ module.exports = function create() {
 
   program.parse();
 
+  // line break when before logging started
+  console.log("");
+
   const [projectName] = program.args;
 
   const outdir = path.resolve(`./${projectName}`);
