@@ -57,7 +57,7 @@ module.exports = function create() {
   console.log(`$ yarn install`);
   console.log(`$ yarn develop`);
   console.log("");
-  console.log(`즐거운 코딩하세요! - 당근마켓 Mini 팀`);
+  console.log(`즐거운 코딩하세요! - 당근마켓 Mini 팀 🥕`);
 
   return process.exit(0);
 };
